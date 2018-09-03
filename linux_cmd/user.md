@@ -3,10 +3,13 @@
 groupadd group_name 创建一个新用户组 
 groupdel group_name 删除一个用户组 
 groupmod -n new_group_name old_group_name 重命名一个用户组 
+
 useradd -c "Name Surname " -g admin -d /home/user1 -s /bin/bash user1 创建一个属于 "admin" 用户组的用户 
 useradd user1 创建一个新用户 
 userdel -r user1 删除一个用户 ( '-r' 排除主目录) 
 usermod -c "User FTP" -g system -d /ftp/user1 -s /bin/nologin user1 修改用户属性 
+usermod -aG docker $USER   #将当前用户加入到 docker 群组
+
 passwd 修改口令 
 passwd user1 修改一个用户的口令 (只允许root执行) 
 chage -E 2005-12-31 user1 设置用户口令的失效期限 

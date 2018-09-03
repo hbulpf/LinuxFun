@@ -23,9 +23,9 @@ zip file1.zip file1 创建一个zip格式的压缩包
 zip -r file1.zip file1 file2 dir1 将几个文件和目录同时压缩成一个zip格式的压缩包 
 unzip file1.zip 解压一个zip格式压缩包 
 注意：
--z 解压gz
--v 冗余输出verbose
--x 释放extract	-c 创建create
--f 文件file
--C 目录directory	
+	-z 解压gz
+	-v 冗余输出verbose
+	-x 释放extract	-c 创建create
+	-f 文件file
+	-C 目录directory	
 ```

@@ -1,6 +1,7 @@
 # 下载
 
-1. wget下载
+## 1. wget下载
+```
 实例1：使用wget下载单个文件
 命令：
 wget http://www.minjieren.com/wordpress-3.1-zh_CN.zip
@@ -121,8 +122,10 @@ wget --ftp-user=USERNAME --ftp-password=PASSWORD url
 wget ftp-url
 使用wget用户名和密码认证的ftp下载
 wget --ftp-user=USERNAME --ftp-password=PASSWORD url
+```
 
-1. curl下载
+## 2. curl下载
+```
 下载单个文件，默认将输出打印到标准输出中(STDOUT)中
 curl http://www.centos.org
 通过-o/-O选项保存下载的文件到指定的文件中：
@@ -139,7 +142,10 @@ curl http://www.centos.org
 若同时从同一站点下载多个文件时，curl会尝试重用链接(connection)。
 通过-L选项进行重定向
 默认情况下CURL不会发送HTTP Location headers(重定向).当一个被请求页面移动到另一个站点时，会发送一个HTTP Loaction header作为请求，然后将请求重定向到新的地址上。
+```
+
 例如：访问google.com时，会自动将地址重定向到google.com.hk上。
+```
  1 curl http://www.google.com
  2 <HTML>
  3 <HEAD>
@@ -152,8 +158,11 @@ curl http://www.centos.org
 10     <A HREF="http://www.google.com.hk/url?sa=p&amp;hl=zh-CN&amp;pref=hkredirect&amp;pval=yes&amp;q=http://www.google.com.hk/&amp;ust=1379402837567135amp;usg=AFQjCNF3o7umf3jyJpNDPuF7KTibavE4aA">here</A>.
 11 </BODY>
 12 </HTML>
+```
 上述输出说明所请求的档案被转移到了http://www.google.com.hk。
 这是可以通过使用-L选项进行强制重定向
+
+```
 1 # 让curl使用地址重定向，此时会查询google.com.hk站点
 2 curl -L http://www.google.com
 断点续传
@@ -238,3 +247,4 @@ curl -u ftpuser:ftppass -T - ftp://ftp.testserver.com/myfile_1.txt
 1 curl -I -X DELETE https://api.github.cim
 上传文件
 1 curl --form "fileupload=@filename.txt" http://hostname/resource
+```
