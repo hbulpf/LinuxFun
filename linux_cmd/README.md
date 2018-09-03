@@ -1,7 +1,6 @@
 # Linux常用命令
 1. [系统信息](arch.md)
 1. [关机 (系统的关机、重启以及登出 )](machine.md)
-1. [文件和目录](dir.md)
 1. [文件操作](file.md)
 1. [文件搜索](file_search.md)
 1. [用户和群组](user.md)
