@@ -1,10 +1,8 @@
 # LinuxFun
 LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo，**Hava Fun ， ^_^**!
 ## 1. Linux 常用命令速查
-
 1. [系统信息](./linux_cmd/arch.md)
 1. [关机 (系统的关机、重启以及登出 )](./linux_cmd/machine.md)
-1. [文件和目录](./linux_cmd/dir.md)
 1. [文件操作](./linux_cmd/file.md)
 1. [文件搜索](./linux_cmd/file_search.md)
 1. [用户和群组](./linux_cmd/user.md)
@@ -19,6 +17,7 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 1. [网络](./linux_cmd/network.md)
 1. [vim使用](./linux_cmd/vim.md)
 1. [软件使用](./linux_cmd/software.md)
+1. [其他常见知识](./linux_cmd/others.md)
 1. [Linux命令全称(助记)](./linux_cmd/remember.md)
 
 ## 2. Linux 部署常见服务
