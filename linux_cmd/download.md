@@ -248,3 +248,11 @@ curl -u ftpuser:ftppass -T - ftp://ftp.testserver.com/myfile_1.txt
 上传文件
 1 curl --form "fileupload=@filename.txt" http://hostname/resource
 ```
+
+下载
+```
+curl -F "key=value" -F "filename=@file.tar.gz" http://localhost/upload  #使用了-F参数，curl会以multipart/form-data的方式发送POST请求
+
+curl -d "action=del" -d "id=12" http://localhost/test   #使用-d命令，curl会以application/x-www-url-encoded格式上传参数
+
+curl -H "Content-Type: application/json" -X POST -d '{"username":"xyz","password":"xyz"}' http://localhost/api/login #以json格式上传参数，需要使用-H在命令中指定
