@@ -34,3 +34,16 @@ unzip file1.zip 解压一个zip格式压缩包
 	-C 目录directory	
 ```
 > `-f` 后面接的一定是压缩后的文件名而不是被压缩的文件！如果是解压的话，那么 `-f` 后面接的一定是压缩文件名，而不是解压缩后的文件名。也可以这么说，`-f` 后面就是接的压缩或打包文件。
+> 
+**常见问题**   
+1. `tar -xvjf ceph_cluster-rc_v13.2.1.tar.bz2` 报以下错误:
+```
+tar (child): bzip2: Cannot exec: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+```
+解决:
+```
+yum install bzip2
+```

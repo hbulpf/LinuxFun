@@ -1,7 +1,8 @@
 # 软件下载与使用
 1. VNC
 ```
-vnc server:2	开启vnc server的端口2
+vncserver :2	#临时开启vncserver的第2连接桌面
+vncpasswd       #修改连接的用户的密码
 ```
 
 1. lrzsz
