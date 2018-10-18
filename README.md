@@ -17,6 +17,7 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 1. [网络](./linux_cmd/network.md)
 1. [vim使用](./linux_cmd/vim.md)
 1. [软件使用](./linux_cmd/software.md)
+1. [脚本调试](./linux_cmd/debug.md)
 1. [其他常见知识](./linux_cmd/others.md)
 1. [Linux命令全称(助记)](./linux_cmd/remember.md)
 
