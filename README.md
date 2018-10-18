@@ -23,7 +23,7 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 
 ## 2. Linux 部署常见服务
 1. **CentOS/RedHat**
-	1. [CentOS 安装 mysql5.7](https://www.cnblogs.com/brianzhu/p/8575243.html) : [https://www.cnblogs.com/brianzhu/p/8575243.html](https://www.cnblogs.com/brianzhu/p/8575243.html)
+	1. CentOS 安装 mysql5.7: [自动化安装脚本](https://github.com/hbulpf/ServerOps/tree/master/fast_run/mysql)  ______   [文字安装教程](https://www.cnblogs.com/brianzhu/p/8575243.html)
 
 1. **Ubuntu/Debian**
 
@@ -31,8 +31,9 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 
 ## 3. Linux 趣味 Demo
 
-## 4. [Linux 常见函数库](./func_lib)
-1. [HTTP 相关](./func_lib/http/)
+## 4. Linux 常见库
+1. [Linux 函数库](./func_lib)
+1. [CentOS 运维自动安装脚本库](https://github.com/hbulpf/ServerOps): DevOps , CentOS各种工具自动安装脚本
 
 ## 5. 推荐 List
 1. [开源镜像](./mirrors.md)
@@ -43,9 +44,10 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 	- [深入理解计算机系统](https://book.douban.com/subject/26912767/)
 	- [Unix 环境高级编程](https://book.douban.com/subject/25900403/)
 	- [Unix/Linux 编程实践教程](https://book.douban.com/subject/1219329/)
-		
-1. ProjectList
 
+1. 在线手册
+    - [Linux 菜鸟教程](http://www.runoob.com/linux/linux-command-manual.html)
+    - [Linux 命令大全](http://man.linuxde.net/) 
 
 
 # 参考
