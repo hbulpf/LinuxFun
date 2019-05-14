@@ -1,0 +1,13 @@
+##网易源
+deb http://mirrors.163.com/ubuntu/ artful main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ artful-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ artful-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ artful-backports main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ artful-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ artful main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ artful-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ artful-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ artful-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ artful-proposed main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu/ artful partner
+deb http://extras.ubuntu.com/ubuntu/ artful main

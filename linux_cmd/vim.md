@@ -49,6 +49,8 @@
 	:n1,n2s/word1/word2/g表示n1-n2行的word1被替换为word2
 	:n1,$s/word1/word2/g 便是从n1-末行的word1被替换为word2
 	:n1,$s/word1/word2/gc 功能同上给予确认的替换。
+	:s/foo/bar/g  	当前行替换
+	:%s/foo/bar/g   全文替换
 	x 删除光标所在的的后面一个字符。相当于DEL键
 	nx 此处n为数字，表示删除n个字符。
 	dd 删除光标所在行
