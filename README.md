@@ -31,7 +31,8 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 
 1. **SUSE**
 
-## 3. Linux 趣味 Demo
+## 3. Linux 小工具
+1. 终端复用/关闭终端保持进程: [Tmux](./tools/tmux.md)
 
 ## 4. Linux 常见库
 1. [Linux 函数库](./func_lib)
