@@ -23,7 +23,7 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 
 ## 2. Linux 部署常见服务
 1. **CentOS/RedHat**
-	1. CentOS 安装 mysql5.7: [自动化安装脚本](https://github.com/hbulpf/ServerOps/tree/master/fast_run/mysql)  ______   [文字安装教程](https://www.cnblogs.com/brianzhu/p/8575243.html)
+	1. CentOS 安装 mysql5.7: [自动化安装脚本](https://github.com/hbulpf/ServerOps/tree/master/fast_run/mysql)  /  [文字安装教程](https://www.cnblogs.com/brianzhu/p/8575243.html)
     2. CentOS 安装自定义的Service : [http://www.cnblogs.com/wutao666/p/9781567.html](http://www.cnblogs.com/wutao666/p/9781567.html)
     3. [各种系统安装ShadowSocks](https://github.com/Shadowsocks-Wiki/shadowsocks)
 
@@ -52,6 +52,8 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
     - [Linux 菜鸟教程](http://www.runoob.com/linux/linux-command-manual.html)
     - [Linux 命令大全](http://man.linuxde.net/) 
 
+1. 有很多工具库网站
+    - [Linux运维日志](https://www.centos.bz/)
 
 # 参考
 1. MySQL安装之yum安装 . https://www.cnblogs.com/brianzhu/p/8575243.html
