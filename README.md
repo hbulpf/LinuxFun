@@ -22,7 +22,7 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 1. [Linux命令全称(助记)](./linux_cmd/remember.md)
 
 ## 2. Linux 部署常见服务
-### 2.1 [Linux服务器运维常见脚本库](https://github.com/hbulpf/ServerOps)
+### 2.1 [Linux服务器运维常见库](https://github.com/hbulpf/ServerOps)
 ### 2.2 常见服务操作
 #### 2.2.1  **CentOS/RedHat** 
 
@@ -37,9 +37,8 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 ## 3. Linux 小工具
 1. 终端复用/关闭终端保持进程: [Tmux](./tools/tmux.md)
 
-## 4. Linux 常见库
+## 4. Linux 工具函数库
 1. [Linux 函数库](./func_lib)
-1. [CentOS 运维自动安装脚本库](https://github.com/hbulpf/ServerOps): DevOps , CentOS各种工具自动安装脚本
 
 ## 5. 推荐 List
 1. [开源镜像](./mirrors.md)
