@@ -50,6 +50,15 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 	- [Unix 环境高级编程](https://book.douban.com/subject/25900403/)
 	- [Unix/Linux 编程实践教程](https://book.douban.com/subject/1219329/)
 
+1. Linux学习技术仓库
+	- [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)：命令行的艺术
+	- [awesome-shell](https://github.com/alebcay/awesome-shell)：一份精心组织的命令行工具及资源的列表。
+	- [awesome-osx-command-line](https://github.com/herrbischoff/awesome-osx-command-line)：一份针对 OS X 命令行的更深入的指南。
+	- [Strict mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)：为了编写更好的脚本文件。
+	- [shellcheck](https://github.com/koalaman/shellcheck)：一个静态 shell 脚本分析工具，本质上是 bash／sh／zsh 的 lint。
+	- [Filenames and Pathnames in Shell](http://www.dwheeler.com/essays/filenames-in-shell.html)：有关如何在 shell 脚本里正确处理文件名的细枝末节。
+- [Data Science at the Command Line](http://datascienceatthecommandline.com/#tools)：用于数据科学的一些命令和工具，摘自同名书籍。
+	
 1. 在线手册
     - [Linux 菜鸟教程](http://www.runoob.com/linux/linux-command-manual.html)
     - [Linux 命令大全](http://man.linuxde.net/) 
