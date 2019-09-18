@@ -27,7 +27,7 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 #### 2.2.1  **CentOS/RedHat** 
 
 1. CentOS 安装 mysql5.7: [自动化安装脚本](https://github.com/hbulpf/ServerOps/tree/master/fast_run/mysql)  /  [文字安装教程](https://www.cnblogs.com/brianzhu/p/8575243.html)
-1. CentOS 安装自定义的Service : [http://www.cnblogs.com/wutao666/p/9781567.html](http://www.cnblogs.com/wutao666/p/9781567.html)
+1. [CentOS 安装自定义的Service ](http://www.cnblogs.com/wutao666/p/9781567.html)
 1. [各种系统安装ShadowSocks](https://github.com/Shadowsocks-Wiki/shadowsocks)
 
 #### 2.2.2  **Ubuntu/Debian**
@@ -71,6 +71,6 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 ----
 本文使用 [`Markdown`](https://www.markdownguide.org/basic-syntax) 编写, 排版符合[`中文技术文档写作规范`](https://github.com/hbulpf/document-style-guide)。  [Find Me on Github](https://github.com/hbulpf/LinuxFun)
 
-友情贡献： @[`RunAtWorld`](https://github.com/RunAtWorld)    @[`请叫我明...小...唤.....，哈哈哈哈`]()   @[`persuez`](https://github.com/orgs/hbulpf/people/persuez)
+友情贡献： @[`RunAtWorld`](https://github.com/RunAtWorld)    @[`persuez`](https://github.com/orgs/hbulpf/people/persuez)
 
 
