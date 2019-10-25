@@ -47,3 +47,8 @@ tar: Error is not recoverable: exiting now
 ```
 yum install bzip2
 ```
+
+2. 解压 rpm 
+```
+rpm2cpio xxx.rpm | cpio -div
+```
