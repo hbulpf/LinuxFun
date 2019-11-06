@@ -1,25 +1,20 @@
 # LinuxFun
 LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo，**Hava Fun ， ^_^**!
 ## 1. Linux 常用命令速查
-1. [系统信息](./linux_cmd/arch.md)
-1. [关机 (系统的关机、重启以及登出 )](./linux_cmd/machine.md)
-1. [文件操作](./linux_cmd/file.md)
-1. [文件搜索](./linux_cmd/file_search.md)
-1. [用户和群组](./linux_cmd/user.md)
-1. [打包和压缩](./linux_cmd/tar.md)
-1. [进程命令](./linux_cmd/ps.md)
-1. [包管理](./linux_cmd/package.md)
-1. [wget和curl](./linux_cmd/download.md)
-1. [文本处理](./linux_cmd/txt.md)
-1. [输入输出重定向](./linux_cmd/redirect.md)
-1. [文件系统](./linux_cmd/fs.md)
-1. [防火墙设置](./linux_cmd/firewall.md)
-1. [网络](./linux_cmd/network.md)
-1. [vim使用](./linux_cmd/vim.md)
-1. [软件使用](./linux_cmd/software.md)
-1. [脚本调试](./linux_cmd/debug.md)
-1. [其他常见知识](./linux_cmd/others.md)
-1. [Linux命令全称(助记)](./linux_cmd/remember.md)
+
+|   1   |   2   |   3   |   4   |  5    |
+| :----: | :----: | :----: | :----: | :----: |
+|  [系统信息](./linux_cmd/arch.md)    |   [关机 (系统的关机、重启以及登出 )](./linux_cmd/machine.md)   |  [文件操作](./linux_cmd/file.md)    |   [文件搜索](./linux_cmd/file_search.md)   |  [用户和群组](./linux_cmd/user.md)    |
+|  arch | reboot | file | file_search | user |
+|   [打包和压缩](./linux_cmd/tar.md)    |  [进程命令](./linux_cmd/ps.md)    |  [包管理](./linux_cmd/package.md)    |   [wget和curl](./linux_cmd/download.md)    |  [文本处理](./linux_cmd/txt.md)    |
+| tar | ps | package |  wget, curl | cat, |
+|   [输入输出重定向](./linux_cmd/redirect.md)   |  [文件系统](./linux_cmd/fs.md)    |    [防火墙设置](./linux_cmd/firewall.md)  |   [网络](./linux_cmd/network.md)   |   [vim使用](./linux_cmd/vim.md)   |
+| redirect | fs | firewall   | network  |  vim |
+|  [软件使用](./linux_cmd/software.md)    |    [脚本调试](./linux_cmd/debug.md)  |  [其他常见知识](./linux_cmd/others.md)    |      |      |
+| software | debug | others  |  |  |
+|  [Linux命令全称(助记)](./linux_cmd/remember.md)   |    |    |      |      |
+
+
 
 ## 2. Linux 部署常见服务
 ### 2.1 [Linux服务器运维常见库](https://github.com/hbulpf/ServerOps)
@@ -72,5 +67,3 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 本文使用 [`Markdown`](https://www.markdownguide.org/basic-syntax) 编写, 排版符合[`中文技术文档写作规范`](https://github.com/hbulpf/document-style-guide)。  [Find Me on Github](https://github.com/hbulpf/LinuxFun)
 
 友情贡献： @[`RunAtWorld`](https://github.com/RunAtWorld)    @[`persuez`](https://github.com/orgs/hbulpf/people/persuez)
-
-
