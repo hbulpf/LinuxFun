@@ -4,14 +4,14 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 
 |   1   |   2   |   3   |   4   |  5    |
 | :----: | :----: | :----: | :----: | :----: |
-|  [系统信息](./linux_cmd/arch.md)    |   [关机 (系统的关机、重启以及登出 )](./linux_cmd/machine.md)   |  [文件操作](./linux_cmd/file.md)    |   [文件搜索](./linux_cmd/file_search.md)   |  [用户和群组](./linux_cmd/user.md)    |
-|  arch | reboot | file | file_search | user |
+|  [系统信息](./linux_cmd/arch.md)    |   [关机 (系统的关机、重启以及登出 )](./linux_cmd/machine.md)   |  [文件操作](./linux_cmd/file.md)    |   [搜索文件](./linux_cmd/file_search.md)   |  [用户和群组](./linux_cmd/user.md)    |
+|  arch,uname | reboot,shutdown | cd,ls,cp,rm,ln,chmod,chattr | find | usermod,groupmod |
 |   [打包和压缩](./linux_cmd/tar.md)    |  [进程命令](./linux_cmd/ps.md)    |  [包管理](./linux_cmd/package.md)    |   [wget和curl](./linux_cmd/download.md)    |  [文本处理](./linux_cmd/txt.md)    |
-| tar | ps | package |  wget, curl | cat, |
+| tar,unzip | ps,kill | rpm,yum |  wget, curl | cat,grep,awk,sed,sort,comm,diff,paste |
 |   [输入输出重定向](./linux_cmd/redirect.md)   |  [文件系统](./linux_cmd/fs.md)    |    [防火墙设置](./linux_cmd/firewall.md)  |   [网络](./linux_cmd/network.md)   |   [vim使用](./linux_cmd/vim.md)   |
-| redirect | fs | firewall   | network  |  vim |
+| \>,tee,dos2unix | mount,df,du,mkfs,dump | firewall-cmd   | ifconfig,ip,ifstat,netstat,tcping,ssh,telnet  |  vim |
 |  [软件使用](./linux_cmd/software.md)    |    [脚本调试](./linux_cmd/debug.md)  |  [其他常见知识](./linux_cmd/others.md)    |      |      |
-| software | debug | others  |  |  |
+| lrzsz,expect | -x | others  |  |  |
 |  [Linux命令全称(助记)](./linux_cmd/remember.md)   |    |    |      |      |
 
 

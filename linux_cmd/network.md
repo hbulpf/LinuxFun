@@ -48,7 +48,7 @@ ping ip/ host_name 检测远程服务器网络是否连通
 tcping ip/ host_name port 检测远程服务器端口是否处于监听状态
 telnet ip/ host_name port 检测远程服务器端口是否处于监听状态
 切换用户命令：su  -  x1
-ssh远程登录： ssh 192.168.1.254
+ssh 远程登录： ssh 192.168.1.254
 telnet服务远程登录： telnet 192.168.1.254(telnet不安全，默认不允许root用户登录)
 在linux下一ping就ping个没完，怎么让它停下来？
 Ctrl+c 停止   Ctrl+z 暂停
