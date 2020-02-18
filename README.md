@@ -26,7 +26,8 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 1. CentOS 安装 mysql5.7: [自动化安装脚本](https://github.com/hbulpf/ServerOps/tree/master/fast_run/mysql)  /  [文字安装教程](https://www.cnblogs.com/brianzhu/p/8575243.html)
 1. [CentOS 安装自定义的Service ](http://www.cnblogs.com/wutao666/p/9781567.html)
 1. [各种系统安装ShadowSocks](https://github.com/Shadowsocks-Wiki/shadowsocks)
-
+1. 小技巧
+	- [日志搜索](tips/log_search.md)
 #### 2.2.2  **Ubuntu/Debian**
 
 #### 2.2.3  **SUSE**

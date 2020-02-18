@@ -1,4 +1,8 @@
 # Vim命令的用法
+
+![](https://www.runoob.com/wp-content/uploads/2015/10/vi-vim-cheat-sheet-sch.gif)
+
+
 ```
 命令模式
 	:w   保存文件但不退出vi
@@ -71,4 +75,5 @@
 	J 将光标所在行与下一行结合成一行。
 	u 复原上一个操作。
 	Ctrl +r 重复上面一个操作。
+	:set nu 显示行号
 ```
