@@ -1,6 +1,6 @@
-**iostat查看linux硬盘IO性能**
+# iostat查看linux硬盘IO性能 
 
-# iostat
+## iostat
 ```
 rrqm/s:   每秒进行 merge 的读操作数目。即 delta(rmerge)/s
 wrqm/s:  每秒进行 merge 的写操作数目。即 delta(wmerge)/s
