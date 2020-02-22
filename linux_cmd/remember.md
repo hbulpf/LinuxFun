@@ -1,4 +1,5 @@
-# Linux命令全称
+# 英文简写
+
 ```
 su：Swith user  切换用户，切换到root用户
 cat: Concatenate  串联

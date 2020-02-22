@@ -1,4 +1,5 @@
 # 文件搜索
+
 ```
 find / -name file1 从 '/' 开始进入根文件系统搜索文件和目录 
 find / -user user1 搜索属于用户 'user1' 的文件和目录 

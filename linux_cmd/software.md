@@ -1,4 +1,5 @@
-# 软件下载与使用
+# 软件下载使用
+
 1. VNC [一键安装VNC Server脚本](https://github.com/hbulpf/ServerOps/blob/master/fast_run/gnome_kde/vncserver-gnome.md)
 ```
 vncserver :2	#临时开启vncserver的第2连接桌面
@@ -27,6 +28,6 @@ chmod u+x jump.exp
 ./jump.exp
 ```
 
-    - expect扩展阅读：
- 1. [expect解释 . http://www.cnblogs.com/zhenbianshu/p/5867440.html](http://www.cnblogs.com/zhenbianshu/p/5867440.html)
- 1. [expect环境安装以及简单脚本测试 . http://www.cnblogs.com/kevingrace/p/5900303.html](http://www.cnblogs.com/kevingrace/p/5900303.html)
+- expect扩展阅读：
+   - [expect解释 . http://www.cnblogs.com/zhenbianshu/p/5867440.html](http://www.cnblogs.com/zhenbianshu/p/5867440.html)
+   - [expect环境安装以及简单脚本测试 . http://www.cnblogs.com/kevingrace/p/5900303.html](http://www.cnblogs.com/kevingrace/p/5900303.html)

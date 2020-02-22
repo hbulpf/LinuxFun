@@ -1,4 +1,5 @@
 # 网络
+
 ```
 ifconfig eth0	显示一个以太网卡的配置 
 ifup eth0 		启用一个 'eth0' 网络设备 

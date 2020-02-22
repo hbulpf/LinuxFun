@@ -1,4 +1,5 @@
 # 打包和压缩文件
+
 ```
 bunzip2 file1.bz2 解压一个叫做 'file1.bz2'的文件 
 bzip2 file1 压缩一个叫做 'file1' 的文件 

@@ -1,4 +1,5 @@
 # 用户和群组
+
 ```
 groupadd group_name  #创建一个新用户组 
 groupdel group_name  #删除一个用户组 

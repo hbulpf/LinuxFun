@@ -1,4 +1,4 @@
-# 防火墙设置
+# 防火墙
 ## 使用 firewalld
 1. 开启防火墙： ` systemctl start firewalld.service `   
 1. 重启防火墙： ` systemctl restart firewalld.service `   

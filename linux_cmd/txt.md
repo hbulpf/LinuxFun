@@ -1,4 +1,5 @@
 # 文本处理 
+
 ## cat
 ```
 cat file1 file2 ... | command <> file1_in.txt_or_file1_out.txt general syntax for text manipulation using PIPE, STDIN and STDOUT 

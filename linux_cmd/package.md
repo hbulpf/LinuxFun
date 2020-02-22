@@ -1,4 +1,5 @@
 # 包管理
+
 1. RPM 包 - （Fedora, Redhat及类似系统)
 ```
 rpm -ivh package.rpm 安装一个rpm包 
