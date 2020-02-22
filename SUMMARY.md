@@ -1,9 +1,6 @@
 
-## func_lib
 
-- [http](func_lib/http/README.md)
-
-- [linux_cmd](linux_cmd/README.md)
+## [linux_cmd](linux_cmd/README.md)
 
 - [系统信息](linux_cmd/arch.md)
 - [脚本调试](linux_cmd/debug.md)
@@ -28,9 +25,10 @@
 - [用户和群组](linux_cmd/user.md)
 - [Vim](linux_cmd/vim.md)
 
-## snap_lib
+## func_lib
 
-- [centos]()
+- [http](func_lib/http/README.md)
+
 
 ## tips
 
