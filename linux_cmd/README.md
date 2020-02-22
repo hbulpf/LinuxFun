@@ -14,10 +14,11 @@
 1. [防火墙设置](firewall.md)
 1. [网络](network.md)
 1. [vim使用](vim.md)
+1. [top](top.md)
 1. [软件使用](software.md)
 1. [脚本调试](debug.md)
 1. [其他常见知识](others.md)
-1. [Linux命令全称(助记)](remember.md)
+2. [Linux命令英文全写](remember.md)
 
 ----------------------------------------------------------------------------------------
 [`@RunAtWorld的csdn`](https://blog.csdn.net/RunAtWorld)    [`@RunAtWorld的github`](https://github.com/RunAtWorld)
