@@ -1,7 +1,7 @@
 {
     "title": "LinuxFun",
-    "author": "RunAtWorld",
-    "description": "it is for learning.",
+    "author": "HeCloud",
+    "description": "it is for LinuxFun",
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "styles": {
@@ -30,12 +30,12 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/RunAtWorld"
+            "url": "https://github.com/hbulpf/LinuxFun"
         },
         "github-buttons": {
             "buttons": [{
                 "user": "RunAtWorld",
-                "repo": "runatworld.github.io",
+                "repo": "https://github.com/hbulpf/LinuxFun.git",
                 "type": "star",
                 "size": "small",
                 "count": true
