@@ -34,8 +34,8 @@
         },
         "github-buttons": {
             "buttons": [{
-                "user": "HeCloud",
-                "repo": "https://github.com/hbulpf/LinuxFun.git",
+                "user": "hbulpf",
+                "repo": "LinuxFun",
                 "type": "star",
                 "size": "small",
                 "count": true
