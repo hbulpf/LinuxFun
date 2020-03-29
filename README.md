@@ -65,15 +65,6 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
     - [Linux运维日志](https://www.centos.bz/)
 
 
---------
-
-本文使用 [`Markdown`](https://www.markdownguide.org/basic-syntax) 编写, 排版符合[`中文技术文档写作规范`](https://github.com/hbulpf/document-style-guide)。  
-
-[Find Me on Github](https://github.com/hbulpf/LinuxFun)
-
-友情贡献： @[`RunAtWorld`](https://github.com/RunAtWorld)    @[`persuez`](https://github.com/orgs/hbulpf/people/persuez)
-
-
 ----------------------------------------
 
 **项目规范**
