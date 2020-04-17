@@ -75,3 +75,7 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 
 @[**RunAtWorld**](http://www.github.com/RunAtWorld)  &nbsp;  @[**persuez**](https://github.com/persuez) &nbsp;  @[**Clock966**](http://www.github.com/Clock966) 
 
+
+#### 关注公众号 『四方云和』 获取更多优质文章 ~
+
+![sfyh_qrcode](sfyh_qrcode.jpg)
