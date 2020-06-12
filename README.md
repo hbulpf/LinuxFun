@@ -28,12 +28,14 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 1. [各种系统安装ShadowSocks](https://github.com/Shadowsocks-Wiki/shadowsocks)
 1. 小技巧
 	- [日志搜索](tips/log_search.md)
+	
 #### 2.2.2  **Ubuntu/Debian**
 
 #### 2.2.3  **SUSE**
 
 ## 3. Linux 小工具
 1. 终端复用/关闭终端保持进程: [Tmux](./tools/tmux.md)
+2. 终端上传下载工具: lrzsz
 
 ## 4. Linux 工具函数库
 1. [Linux 函数库](./func_lib)
