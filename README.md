@@ -28,12 +28,14 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 1. [各种系统安装ShadowSocks](https://github.com/Shadowsocks-Wiki/shadowsocks)
 1. 小技巧
 	- [日志搜索](tips/log_search.md)
+	
 #### 2.2.2  **Ubuntu/Debian**
 
 #### 2.2.3  **SUSE**
 
 ## 3. Linux 小工具
 1. 终端复用/关闭终端保持进程: [Tmux](./tools/tmux.md)
+2. 终端上传下载工具: lrzsz
 
 ## 4. Linux 工具函数库
 1. [Linux 函数库](./func_lib)
@@ -41,14 +43,14 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 ## 5. 推荐 List
 1. [开源镜像](./mirrors.md)
 
-1. BookList
+2. BookList
 	- [鸟哥的 Linux 私房菜](https://book.douban.com/subject/4889838/)；在线网站：[鸟哥的私房菜](http://cn.linux.vbird.org/)
 	- [现代操作系统](https://book.douban.com/subject/3852290/)
 	- [深入理解计算机系统](https://book.douban.com/subject/26912767/)
 	- [Unix 环境高级编程](https://book.douban.com/subject/25900403/)
 	- [Unix/Linux 编程实践教程](https://book.douban.com/subject/1219329/)
 
-1. Linux学习技术仓库
+3. Linux学习技术仓库
 	- [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)：命令行的艺术
 	- [awesome-shell](https://github.com/alebcay/awesome-shell)：一份精心组织的命令行工具及资源的列表。
 	- [awesome-osx-command-line](https://github.com/herrbischoff/awesome-osx-command-line)：一份针对 OS X 命令行的更深入的指南。
@@ -57,13 +59,13 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 	- [Filenames and Pathnames in Shell](http://www.dwheeler.com/essays/filenames-in-shell.html)：有关如何在 shell 脚本里正确处理文件名的细枝末节。
 	- [Data Science at the Command Line](http://datascienceatthecommandline.com/#tools)：用于数据科学的一些命令和工具，摘自同名书籍。
 	
-1. 在线手册
+4. 在线手册
     - [Linux 菜鸟教程](http://www.runoob.com/linux/linux-command-manual.html)
     - [Linux 命令大全](http://man.linuxde.net/) 
 
-1. 有很多工具库网站
+5. 有很多工具库网站
     - [Linux运维日志](https://www.centos.bz/)
-
+    - [Linux运维部落（马哥运维）](http://www.178linux.com/)
 
 ----------------------------------------
 
