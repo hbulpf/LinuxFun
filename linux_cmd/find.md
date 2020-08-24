@@ -160,6 +160,15 @@ find命令从指定的起始目录开始，递归地搜索其各个子目录，�
     ```
     find -type f -printf '%T+%p \n'
     ```
+9. 多个文件查找某个关键字: 在所有 properties 文件中查找 `tlsv1`  
+    方式1: cat | grep
+    ```
+    cat *.properties | grep 'tlsv1'
+    ```
+    方式2: find | xargs grep
+    ```
+    find . -maxdepth 5 -type f -name "*.properties" | xargs grep -i 'tlsv1'
+    ```
 
 ## 3. exec 与ok 模式
 
