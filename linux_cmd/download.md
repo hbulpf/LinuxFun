@@ -295,3 +295,19 @@ curl -d "action=del" -d "id=12" http://localhost/test   #使用-d命令，curl�
 
 curl -H "Content-Type: application/json" -X POST -d '{"username":"xyz","password":"xyz"}' http://localhost/api/login #以json格式上传参数，需要使用-H在命令中指定
 ```
+
+1. `-ivk` 参数，直接使用 ip:port 的形式，类似于 `tcping ip port`
+```
+curl -ivk www.abc.com 9000
+```
+
+结果
+```
+* About to connect() to 10.63.15.130 port 9000(#0)
+*   Trying www.abc.com...
+* Connected to www.abc.com (10.63.15.130) port 9000 (#0)
+> GET / HTTP/1.1
+> User-Agent: curl/7.29.0
+> Host: www.abc.com:9000
+> Accept: */*
+```
