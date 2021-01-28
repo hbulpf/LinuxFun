@@ -1,6 +1,6 @@
 # 文件系统
 
-1. 挂载一个文件系统 
+## 挂载一个文件系统 
 ```
 mount /dev/hda2 /mnt/hda2 挂载一个叫做hda2的盘 - 确定目录 '/ mnt/hda2' 已经存在 
 umount /dev/hda2 卸载一个叫做hda2的盘 - 先从挂载点 '/ mnt/hda2' 退出 
@@ -8,7 +8,7 @@ fuser -km /mnt/hda2 当设备繁忙时强制卸载
 umount -n /mnt/hda2 运行卸载操作而不写入 /etc/mtab 文件- 当文件为只读或当磁盘写满时非常有用 
 mount /dev/fd0 /mnt/floppy 挂载一个软盘 
 mount /dev/cdrom /mnt/cdrom 挂载一个cdrom或dvdrom 
-mount /dev/hdc /mnt/cdrecorder 挂载一个cdrw或dvdrom 
+mount /dev/hdc /mnt/cdrecorder 挂## 载一个cdrw或dvdrom 
 mount /dev/hdb /mnt/cdrecorder 挂载一个cdrw或dvdrom 
 mount -o loop file.iso /mnt/cdrom 挂载一个文件或ISO镜像文件 
 mount -t vfat /dev/hda5 /mnt/hda5 挂载一个Windows FAT32文件系统 
@@ -16,7 +16,7 @@ mount /dev/sda1 /mnt/usbdisk 挂载一个usb 捷盘或闪存设备
 mount -t smbfs -o username=user,password=pass //WinClient/share /mnt/share 挂载一个windows网络共享 
 ```
 
-1. 磁盘空间 
+## 磁盘空间 
 ```
 df -h 显示已经挂载的分区列表 
 ls -lSr |more 以尺寸大小排列文件和目录 
@@ -26,7 +26,7 @@ rpm -q -a --qf '%10{SIZE}t%{NAME}n' | sort -k1,1n 以大小为依据依次显示
 dpkg-query -W -f='${Installed-Size;10}t${Package}n' | sort -k1,1n 以大小为依据显示已安装的deb包所使用的空间 (ubuntu, debian类系统) 
 ```
 
-1. 文件系统分析 
+## 文件系统分析 
 ```
 badblocks -v /dev/hda1 检查磁盘hda1上的坏磁块 
 fsck /dev/hda1 修复/检查hda1磁盘上linux文件系统的完整性 
@@ -39,7 +39,7 @@ fsck.msdos /dev/hda1 修复/检查hda1磁盘上dos文件系统的完整性
 dosfsck /dev/hda1 修复/检查hda1磁盘上dos文件系统的完整性 
 ```
 
-1. 初始化一个文件系统 
+## 初始化一个文件系统 
 ```
 mkfs /dev/hda1 在hda1分区创建一个文件系统 
 mke2fs /dev/hda1 在hda1分区创建一个linux ext2的文件系统 
@@ -49,14 +49,14 @@ fdformat -n /dev/fd0 格式化一个软盘
 mkswap /dev/hda3 创建一个swap文件系统 
 ```
 
-1. SWAP文件系统 
+## SWAP文件系统 
 ```
 mkswap /dev/hda3 创建一个swap文件系统 
 swapon /dev/hda3 启用一个新的swap文件系统 
 swapon /dev/hda2 /dev/hdb3 启用两个swap分区 
 ```
 
-1. 备份 
+## 备份 
 ```
 dump -0aj -f /tmp/home0.bak /home 制作一个 '/home' 目录的完整备份 
 dump -1aj -f /tmp/home0.bak /home 制作一个 '/home' 目录的交互式备份 
@@ -77,7 +77,7 @@ dd if=/dev/hda of=/dev/fd0 bs=512 count=1 做一个将 MBR (Master Boot Record)�
 dd if=/dev/fd0 of=/dev/hda bs=512 count=1 从已经保存到软盘的备份中恢复MBR内容 
 ```
 
-1. 光盘 
+## 光盘 
 ```
 cdrecord -v gracetime=2 dev=/dev/cdrom -eject blank=fast -force 清空一个可复写的光盘内容 
 mkisofs /dev/cdrom > cd.iso 在磁盘上创建一个光盘的iso镜像文件 

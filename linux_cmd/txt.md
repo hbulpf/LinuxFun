@@ -11,8 +11,12 @@ cat example.txt | awk 'NR%2==1' 删除example.txt文件中的所有偶数行
 ```
 
 ## grep   
+
 ```
 grep -n "hello"  *
+```
+
+
 * : 表示当前目录所有文件，也可以是某个文件名
 -r 是递归查找
 -n 是显示行号
@@ -20,6 +24,7 @@ grep -n "hello"  *
 -i 忽略大小写
 
 下面是一些有意思的命令行参数：
+```
 grep -i pattern files ：不区分大小写地搜索。默认情况区分大小写， 
 grep -l pattern files ：只列出匹配的文件名， 
 grep -L pattern files ：列出不匹配的文件名， 
@@ -27,8 +32,10 @@ grep -w pattern files ：只匹配整个单词，而不是字符串的一部分�
 grep -C number pattern files ：匹配的上下文分别显示[number]行， 
 grep pattern1 | pattern2 files ：显示匹配 pattern1 或 pattern2 的行， 
 grep pattern1 files | grep pattern2 ：显示既匹配 pattern1 又匹配 pattern2 的行。 
+```
 
 还有些用于搜索的特殊符号：
+```
 \< 和 \> 分别标注单词的开始与结尾。
 例如： 
 grep man * 会匹配 ‘Batman’、‘manic’、‘man’等， 
@@ -44,9 +51,18 @@ grep Aug /var/log/messages 在文件 '/var/log/messages'中查找关键词"Aug"
 grep ^Aug /var/log/messages 在文件 '/var/log/messages'中查找以"Aug"开始的词汇 
 grep [0-9] /var/log/messages 选择 '/var/log/messages' 文件中所有包含数字的行 
 grep Aug -R /var/log/* 在目录 '/var/log' 及随后的目录中搜索字符串"Aug" 
+```
 
 xargs配合grep查找
+```
 find -type f -name '*.php'|xargs grep 'GroupRecord'
+```
+
+## zgrep
+
+从压缩文件中查找
+```
+zgrep 'hi' a.tgz
 ```
 
 ## awk

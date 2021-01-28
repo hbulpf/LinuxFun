@@ -1,6 +1,6 @@
 # 下载
 
-## 1. wget下载
+## wget
 1. wget下载单个文件:从网络下载一个文件并保存在当前目录，在下载的过程中会显示进度条，包含（下载完成百分比，已经下载的字节，当前下载速度，剩余下载时间）。
 ```
 wget http://www.minjieren.com/wordpress-3.1-zh_CN.zip
@@ -143,7 +143,7 @@ wget --ftp-user=USERNAME --ftp-password=PASSWORD url  #使用wget用户名和密
 >可以使用wget来完成ftp链接的下载。
 
 
-## 2. curl下载
+## cURL
 1. 下载单个文件，默认将输出打印到标准输出中(STDOUT)中
 ```
 curl http://www.centos.org

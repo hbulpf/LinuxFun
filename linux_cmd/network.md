@@ -1,10 +1,15 @@
 # 网络
 
+## ifconfig
 ```
 ifconfig eth0	显示一个以太网卡的配置 
 ifup eth0 		启用一个 'eth0' 网络设备 
 ifdown eth0 	禁用一个 'eth0' 网络设备 
 ifconfig eth0 192.168.1.1 netmask 255.255.255.0	设置eth0的IP和子网掩码
+```
+
+## hostname
+```
 hostname 		显示系统hostname
 host www.example.com  	lookup hostname to resolve name to ip address and viceversa 
 nslookup www.example.com  lookup hostname to resolve name to ip address and viceversa 
@@ -53,6 +58,10 @@ ssh 远程登录： ssh 192.168.1.254
 telnet服务远程登录： telnet 192.168.1.254(telnet不安全，默认不允许root用户登录)
 在linux下一ping就ping个没完，怎么让它停下来？
 Ctrl+c 停止   Ctrl+z 暂停
+```
+
+# netstat
+```
 netstat –apn
 netstat –ntlp
 
