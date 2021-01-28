@@ -45,7 +45,7 @@ find命令从指定的起始目录开始，递归地搜索其各个子目录，�
 
     例：
     ```
-    find \(–name 'tmp' –xtype c -user 'inin' \)
+    find \( –name 'tmp' –xtype c -user 'inin' \)
     ```
     该命令的各选项含义如下：
 
@@ -116,10 +116,10 @@ find命令从指定的起始目录开始，递归地搜索其各个子目录，�
 
 2. 删除当前目录下所有一周之内没有被访问过的a .out或*.o文件。
     ```
-    find . \(-name a.out -o -name '*.o'\) -atime +7 -exec rm {} \;
+    find . \( -name a.out -o -name '*.o' \) -atime +7 -exec rm {} \;
     ```
       - 命令中的"."表示当前目录，此时 find 将从当前目录开始，逐个在其子目录中查找满足后面指定条件的文件。
-      - "\(" 和 "\)" 表示括号()，其中的 "\" 称为转义符。之所以这样写是由于对 Shell 而言，(和)另有不同的含义，而不是这里的用于组合条件的用途。
+      - "\(" 和 "\)" 表示括号()，其中的 "\" 称为转义符。之所以这样写是由于对 Shell 而言，(和)另有不同的含义，而不是这里的用于组合条件的用途。**注意: "\(" 和 "\)"两遍要加空格**
       - `-name a.out` 是指要查找名为a.out的文件；
       - `-name '*.o'` 是指要查找所有名字以 .o 结尾的文件。
       - 两个 -name 之间的 -o 表示逻辑或(or)，即查找名字为a.out或名字以 .o结尾的文件。
@@ -159,6 +159,15 @@ find命令从指定的起始目录开始，递归地搜索其各个子目录，�
     借助-printf 来打印查找到的文件的相应属性，比如时间，大小
     ```
     find -type f -printf '%T+%p \n'
+    ```
+9. 多个文件查找某个关键字: 在所有 properties 文件中查找 `tlsv1`  
+    方式1: cat | grep
+    ```
+    cat *.properties | grep 'tlsv1'
+    ```
+    方式2: find | xargs grep
+    ```
+    find . -maxdepth 5 -type f -name "*.properties" | xargs grep -i 'tlsv1'
     ```
 
 ## 3. exec 与ok 模式
