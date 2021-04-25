@@ -311,3 +311,24 @@ curl -ivk www.abc.com 9000
 > Host: www.abc.com:9000
 > Accept: */*
 ```
+
+2. 确认接口是否可用
+
+    ```
+    curl -vk https://kwe-beta.huawei.com/ApiCommonQuery/appToken/getRestAppDynamicTokenAndTime
+    ```
+
+    > -k/--insecure允许连接到 SSL 站点，而不使用证书 `curl -k 'https://192.168.41.205'`
+
+3. 发送请求
+
+    `-d/--data <data>` 以 POST 方式传送数据，请求头会自动加上 `Content-Type:application/x-www-form-urlencoded，key=value` 
+    数据应该是url转义的(H) `curl -d 'name=admin&password=123' 192.168.41.203`
+
+    ```
+    curl -H 'Content-Type: text/xml' -d 'hello' 10.2.19.250:8181/upload -v     #发送 XML 数据
+
+    curl -H 'Content-Type: application/json' -d '{"query": "cats"}' 10.2.19.250:8181/upload -v     #发送 json 数据
+    ```
+
+    `H/--header <header>` 添加 HTTP 请求头 `curl -H 'Host:a.com' 192.168.41.203 -v`
