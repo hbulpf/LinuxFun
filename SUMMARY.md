@@ -34,9 +34,11 @@
 ## tips
 
 - [查找日志的技巧](tips/log_search.md)
-- [各类小技巧](tips/tips.md)
-- [tools](tools/README.md)
-- [dnsmasq]()
+- [文本数据处理命令](tips/文本数据处理命令.md)
+- [shell难点](tips/tips.md)
+
+## 工具总结
+- [dnsmasq](tools/dnsmasq.md)
 - [iostat查看linux硬盘IO性能](tools/iostat.md)
 - [Monitorix](tools/monitorix.md)
 - [查看网络流量](tools/net_traffic_monitor.md)
