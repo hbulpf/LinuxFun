@@ -12,8 +12,8 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 | \>,tee,dos2unix | mount,df,du,mkfs,dump | rpm,yum |  wget, curl |
 |   [网络](./linux_cmd/network.md)   | [vim使用](./linux_cmd/vim.md) |    [防火墙设置](./linux_cmd/firewall.md)  |  [top](./linux_cmd/top.md)  top   |
 | ifconfig,ip,ifstat,netstat,<br/>tcping,ssh,telnet | vim | firewall-cmd   |  top |
-|  [软件使用](./linux_cmd/software.md)    |    [脚本调试](./linux_cmd/debug.md)  |  [其他常见知识](./linux_cmd/others.md)    |      |
-| lrzsz,expect | -x | others  |  |
+|  [软件使用](./linux_cmd/software.md)    |    [脚本调试](./linux_cmd/debug.md)  |  [其他常见知识](./linux_cmd/others.md)    |  [正则表达式](linux_cmd/regex.md)|
+| lrzsz,expect | -x | others  |  regex |
 |  [Linux命令全称(助记)](./linux_cmd/remember.md)   |    |    |      |
 
 
