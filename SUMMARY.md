@@ -20,6 +20,7 @@
 - [软件下载使用](linux_cmd/software.md)
 - [tar/打包和压缩文件](linux_cmd/tar.md)
 - [用户和群组](linux_cmd/user.md)
+- [正则表达式](linux_cmd/regex.md)
 - [trap/内核命令](linux_cmd/system.md)
 - [vim](linux_cmd/vim.md)
 - [英文简写](linux_cmd/remember.md)
