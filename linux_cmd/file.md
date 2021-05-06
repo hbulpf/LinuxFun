@@ -138,3 +138,8 @@
 	chattr +u file1 若文件被删除，系统会允许你在以后恢复这个被删除的文件 
 	lsattr 显示特殊的属性 
 	```
+
+   > 对 xargs 的理解: xargs 是一个把前面命令的输入作为后面命令的输出的命令，常用的场景有:   
+   > 1. 小文件数量大，直接使用 rm 命令可能导致内存爆满，使用 ls / | xargs rm -f 逐个删除
+   > 2. 限定范围，和find一起搜索含有某个关键字的所有文件， find /opt/etc -type f | xargs grep 'keyword'
+
