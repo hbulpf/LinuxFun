@@ -61,14 +61,14 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 #### 2.1.2 Devops
 
 1. [VirtualBox实践](DevOps/VirtualBox/README.md)
-  - [VirtualBox配置CentOS虚拟机](DevOps/VirtualBox/VirtualBox配置CentOS虚拟机.md)
-  - [虚拟机硬盘扩容](DevOps/VirtualBox/VirtualBox_ResizeStorage.md)
-  - [VirtualBox 命令行](DevOps/VirtualBox/VirtualBoxCMD.md)
+   - [VirtualBox配置CentOS虚拟机](DevOps/VirtualBox/VirtualBox配置CentOS虚拟机.md)
+   - [虚拟机硬盘扩容](DevOps/VirtualBox/VirtualBox_ResizeStorage.md)
+   - [VirtualBox 命令行](DevOps/VirtualBox/VirtualBoxCMD.md)
 2. [DevOps实践](DevOps/README.md)
-  - [jenkins](DevOps/jenkins/README.md)
-  - [jumpser](DevOps/jumpser/README.md)
-  - [微服务](DevOps/microservice/README.md)
-  - [webhook](DevOps/webhook/gitee码云使用webhook.md)
+   - [jenkins](DevOps/jenkins/README.md)
+   - [jumpser](DevOps/jumpser/README.md)
+   - [微服务](DevOps/microservice/README.md)
+   - [webhook](DevOps/webhook/gitee码云使用webhook.md)
 
 ### 2.2 常见服务操作
 #### 2.2.1  **CentOS/RedHat** 
