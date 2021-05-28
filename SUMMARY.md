@@ -1,6 +1,6 @@
 
 
-## [linux_cmd](linux_cmd/README.md)
+## [Linux命令](linux_cmd/README.md)
 
 - [系统信息](linux_cmd/arch.md)
 - [Top](linux_cmd/top.md)
