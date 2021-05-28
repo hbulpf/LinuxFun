@@ -1,5 +1,4 @@
-
-**使用 Pycharm**
+# Pycharm
 
 服务器已经安装 Pycharm , 使用 Pycharm 需要先进入 VNC 的图形化界面。
 第一次使用按照下图打开 Pycharm:   

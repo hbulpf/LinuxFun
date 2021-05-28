@@ -1,5 +1,7 @@
-# 部署Zabbix Server
+# Zabbix Server
+
 这里Zabbix Server 的ip为 : 132.232.42.144
+
 ### 1. 安装预备环境
 ```
 sudo yum -y update

@@ -14,12 +14,62 @@ LinuxFun , 你可以在 本项目中发现各种 Linux 使用技巧和趣味Demo
 | ifconfig,ip,ifstat,netstat,<br/>tcping,ssh,telnet | vim | firewall-cmd   |  top |
 |  [软件使用](./linux_cmd/software.md)    |    [脚本调试](./linux_cmd/debug.md)  |  [其他常见知识](./linux_cmd/others.md)    |  [正则表达式](linux_cmd/regex.md)|
 | lrzsz,expect | -x | others  |  regex |
-|  [Linux命令全称(助记)](./linux_cmd/remember.md)   |    |    |      |
+|  [Linux命令全称(助记)](./linux_cmd/remember.md)   | [高频使用脚本](./linux_cmd/high_sample.md)   |    |      |
 
 
 
 ## 2. Linux 部署常见服务
-### 2.1 [Linux服务器运维常见库](https://github.com/hbulpf/ServerOps)
+
+### 2.1 快速脚本与微服务
+
+#### 2.1.1 Linux服务器快速脚本
+1. [aws](fast_run/aws/README.md)
+2. [ceph](fast_run/ceph/README.md)
+4. [docker](fast_run/docker/README.md)
+5. [ftp](fast_run/ftp/README.md)
+6. [gitlab](fast_run/gitlab/README.md)
+7. [gnome_kde](fast_run/gnome_kde/README.md)
+8. [grant](fast_run/grant/README.md)
+9. [http](fast_run/http/README.md)
+10. [服务器初始化](fast_run/init_run/README.md)
+11. [java](fast_run/java/README.md)
+12. [log](fast_run/log/README.md)
+13. [邮箱服务器](fast_run/mail_server/README.md)
+14. [maven](fast_run/maven/README.md)
+15. [metabase](fast_run/metabase/README.md)
+16. [ml](fast_run/ml/README.md)
+17. [monitorix](fast_run/monitorix/README.md)
+18. [mysql](fast_run/mysql/README.md)
+19. [nas](fast_run/nas/README.md)
+20. [nextcloud](fast_run/nextcloud/README.md)
+21. [nfs](fast_run/nfs/README.md)
+22. [nginx](fast_run/nginx/README.md)
+23. [nodejs](fast_run/nodejs/README.md)
+24. [php](fast_run/php/README.md)
+25. [redis](fast_run/redis/README.md)
+26. [ResQuota.md](fast_run/ResQuota.md/README.md)
+27. [rsync](fast_run/rsync/README.md)
+28. [service_config](fast_run/service_config/README.md)
+29. [ssh](fast_run/ssh/README.md)
+30. [tomcat](fast_run/tomcat/README.md)
+31. [vpn](fast_run/vpn/README.md)
+32. [wiznote](fast_run/wiznote/README.md)
+33. [yum](fast_run/yum/README.md)
+34. [zabbix](fast_run/zabbix/README.md)
+35. [设置磁盘限额](fast_run/ResQuota.md)
+
+#### 2.1.2 Devops
+
+1. [VirtualBox实践](DevOps/VirtualBox/README.md)
+  - [VirtualBox配置CentOS虚拟机](DevOps/VirtualBox/VirtualBox配置CentOS虚拟机.md)
+  - [虚拟机硬盘扩容](DevOps/VirtualBox/VirtualBox_ResizeStorage.md)
+  - [VirtualBox 命令行](DevOps/VirtualBox/VirtualBoxCMD.md)
+2. [DevOps实践](DevOps/README.md)
+  - [jenkins](DevOps/jenkins/README.md)
+  - [jumpser](DevOps/jumpser/README.md)
+  - [微服务](DevOps/microservice/README.md)
+  - [webhook](DevOps/webhook/gitee码云使用webhook.md)
+
 ### 2.2 常见服务操作
 #### 2.2.1  **CentOS/RedHat** 
 

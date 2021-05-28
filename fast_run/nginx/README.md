@@ -122,6 +122,7 @@ https://blog.csdn.net/weixin_38615720/article/details/92827012?utm_medium=distri
 ## 端口转发
 在nginx.conf添加如下配置，并使用 `nginx -s reload` 重载nginx使其生效，同时注意防火墙/安全组放行对应的端口。
 
+```
 stream {
     #将12345端口转发到192.168.1.23的3306端口
     server {
@@ -144,6 +145,7 @@ stream {
         proxy_pass [2607:fcd0:107:3cc::1]:9135;
     }
 }
+```
 
 * listen：后面填写源端口（也就是当前服务器端口），默认协议为TCP，可以指定为UDP协议
 * proxy_connect_timeout：连接超时时间
@@ -176,6 +178,7 @@ stream {
 		Max kernel policy version:      31
 		.......
 		```
+        
 	- 永久关闭Selinux,重启后也有效
 		```
 		sed -i "s/^SELINUX=.*/SELINUX=disable/" /etc/selinux/config  #永久关闭Selinux

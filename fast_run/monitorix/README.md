@@ -1,4 +1,4 @@
-安装 Monitorix
+# Monitorix
 
 1. 安装依赖包
     ```
