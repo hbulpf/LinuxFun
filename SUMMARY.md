@@ -1,6 +1,6 @@
 
 
-## [linux_cmd](linux_cmd/README.md)
+## [Linux命令](linux_cmd/README.md)
 
 - [系统信息](linux_cmd/arch.md)
 - [Top](linux_cmd/top.md)
@@ -25,6 +25,7 @@
 - [vim](linux_cmd/vim.md)
 - [英文简写](linux_cmd/remember.md)
 - [其他常见知识](linux_cmd/others.md)
+- [高频使用脚本](linux_cmd/high_sample.md)
 
 ## func_lib
 
